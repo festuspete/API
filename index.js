@@ -21,7 +21,7 @@ fetch(newStoriesUrl, options)
 
 
 //   This fetch get the post with an ID of 32494485
-fetch(itemUrl + "32512950" + ".json", options)
+fetch(itemUrl + "32528853" + ".json", options)
   .then((response) => response.json())
   .then((response) => console.log(response))
   .catch((err) => console.error(err));
